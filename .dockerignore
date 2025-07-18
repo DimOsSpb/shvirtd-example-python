@@ -1,0 +1,7 @@
+*.pdf
+.env
+Dockerfile*
+README*
+venv/
+build/
+*.log
