@@ -5,3 +5,4 @@ README*
 venv/
 build/
 *.log
+make_yc_app.sh

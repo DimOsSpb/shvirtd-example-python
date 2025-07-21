@@ -3,7 +3,8 @@ include:
   - proxy.yaml
 services:
   web:
-    image: cr.yandex/crp7qgp61fajvdodm5hk/shvirtd-example-python:v1
+    # image: cr.yandex/crp7qgp61fajvdodm5hk/shvirtd-example-python:v1
+    build: Dockerfile.python
     networks:
       backend:
         ipv4_address: 172.20.0.5
