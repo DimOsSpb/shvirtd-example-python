@@ -11,6 +11,6 @@ ssh -i ~/.ssh/netology -o StrictHostKeyChecking=accept-new -o ConnectTimeout=10 
     "sudo mkdir -p $APP_DIR && \
     sudo chown \$USER:\$USER $APP_DIR && \
     cd $APP_DIR && \
-    git clone $REPO_URL ."
+    git clone $REPO_URL .
     docker compose up"
 
