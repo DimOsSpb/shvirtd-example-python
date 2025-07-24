@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Настройки по умолчанию
-
 VM_IP=158.160.114.0
 VM_USER=odv
 REPO_URL=https://github.com/DimOsSpb/shvirtd-example-python.git
